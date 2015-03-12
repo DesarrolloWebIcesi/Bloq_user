@@ -1,0 +1,453 @@
+html, body { 
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;       
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+
+    margin: 0px auto;   
+}
+
+#cabecera{
+    text-align: center;
+}
+
+footer{
+    position:relative;
+    clear: both;
+    width: 100%;
+
+
+}
+
+#logo{
+    width: 185px;
+    height: 60px;
+    margin-top: 20px; 
+    margin-left: 60px;
+    float:left;
+
+}
+
+footer span{
+
+}
+
+#foot_letter{
+    position:relative;
+    float: right;
+    margin-top: 20px;
+    width: -moz-calc(100% - 250px);
+    width: -webkit-calc(100% - 250px);
+    width: -o-calc(100% - 250px);
+    width: calc(100% - 250px);
+    text-align: center;
+}
+#footer{
+    background-color: #0061AA;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+    clear: both;
+    top: 10px;
+    height: 40px;
+    width: 100%;
+    padding-top: 5px;
+    color: #FFFFFF;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.footer2{
+
+}
+#footer a{
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#footer a:hover{
+
+    text-decoration: underline;
+}
+header{
+    width: 100%;
+    height: 7em;
+    background: #4b8ec3;
+    text-align: center;   
+}
+
+#title{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
+
+#tablas_joomla2{
+    width: 37em;
+    height: 30em;
+    overflow: scroll;
+    top: -25px;
+    border: 1px solid #222;
+    clear: both;
+    position: relative;
+    font-family: 'Righteous', cursive;
+}
+
+#analizar2{
+    width: 140px;
+    height: 56px;
+    left: 43%;
+    position: relative;
+    top: -25px;
+    float: left;
+    background-image: url("../img/analizar.jpg");
+}
+#analizar2:hover{
+    cursor: pointer;
+}
+#analizar2:active{
+    background-image: url("../img/analizar_click.jpg");
+}
+
+#formu{
+    width: 600px;
+
+    height: 56px;
+    left: 4%;
+    position:relative;
+
+    float: left;
+}
+
+#formulario{
+    width: 95%;
+    top: -20px;
+    left: 5%;
+    height: 3em;
+    text-align: center;
+    padding-top: 1em;
+
+    position: relative;
+    font-family: 'Righteous', cursive;
+    color:  #222;
+    font-size: 20px;
+
+}
+#bar_joom{
+    width: 200px;
+    height: 60px;
+    /* position: relative; */
+    top: 15px;
+    left: 190px;
+    float: left;
+    background: #0061AA;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+#navegacion{
+
+    display: inline-block;
+    width: 85%;
+    float: right;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+#bar_sgs{
+    width: 170px;
+    height: 60px;
+    top: 15px;
+    display: inline-block;
+    /* float: right; */
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+}
+#bar_sgc{
+    width: 170px;
+    height: 60px;
+    top: 15px;
+    display: inline-block;
+    /* float: right; */
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+}
+#bar_wordpress{
+     width: 220px;
+    height: 60px;
+    top: 15px;
+    display: inline-block;
+    /* float: right; */
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+#bar_encuesta{
+     width: 210px;
+    height: 60px;
+    top: 15px;
+    display: inline-block;
+    /* float: right; */
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+#bar_joom span{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1.4;
+    font-family: sans-serif;
+    margin: 35px;
+    position: relative;
+    top: 15px;
+}
+
+#bar_sgs span{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1.4;
+    font-family: sans-serif;
+    margin: 35px;
+    position: relative;
+    top: 15px;
+}
+#bar_sgc span{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1.4;
+    font-family: sans-serif;
+    margin: 35px;
+    position: relative;
+    top: 15px;
+}
+#bar_wordpress span{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1.4;
+    font-family: sans-serif;
+    margin: 35px;
+    position: relative;
+    top: 15px;
+}
+#bar_encuesta span{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1.4;
+    font-family: sans-serif;
+    margin: 35px;
+    position: relative;
+    top: 15px;
+}
+
+
+.iden{
+    height: 2em;
+    width: 17em;
+    font-family: 'Righteous', cursive;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 0;   
+}
+#actualizar{
+    width: 140px;
+
+    height: 56px;
+    left: 1%;
+    position:relative;
+    top: 3px;
+    float: left;
+    background-image: url("../img/actualizar.png");
+}
+
+#actualizar:hover{
+    cursor: pointer;
+}
+
+#analizar{
+    width: 140px;
+
+    height: 56px;
+    left: 22%;
+    position:relative;
+    top: -25px;
+    float: left;
+    background-image: url("../img/analizar.jpg");
+}
+
+#analizar:hover{
+    cursor: pointer;
+}
+
+#analizar:active{
+    background-image: url("../img/analizar_click.jpg");
+}
+#analizar_encuesta{
+    width: 140px;
+
+    height: 56px;
+    left: 22%;
+    position:relative;
+    top: -25px;
+    float: left;
+    background-image: url("../img/analizar_encuesta.png");
+}
+
+#analizar_encuesta:hover{
+    cursor: pointer;
+}
+
+#analizar_encuesta:active{
+    background-image: url("../img/analizar_encuesta_click.png");
+}
+
+
+#bloquear{
+    width: 140px;
+    top: -25px;
+    height: 56px;
+    position: relative;
+    right: 12%;
+
+    background-image: url("../img/bloquear_click.jpg");
+    float: right;
+}
+
+#bloquear:hover{
+    cursor: pointer;
+}
+#bloquear:active{
+    background-image:url("../img/bloquear_click.jpg");  
+}
+#bloquear_encuesta{
+    width: 140px;
+    top: -25px;
+    height: 56px;
+    position: relative;
+    right: 12%;
+
+    background-image: url("../img/trasladar_click.png");
+    float: right;
+}
+
+#bloquear_encuesta:hover{
+    cursor: pointer;
+}
+#bloquear_encuesta:active{
+    background-image:url("../img/trasladar_click.png");  
+}
+#tablas_joomla {
+    width: 600px;
+    height: 481px;
+    overflow: scroll;
+    top: -25px;
+    border: 1px solid #222;
+    clear: both;
+    float: left;
+    position: relative;
+    font-family: 'Righteous', cursive;
+}
+#inf_user{
+
+    width: 14%;
+    height: 300px;
+    float: left;
+    position: relative;
+    top: 300px;
+    text-align:center; 
+    font-weight:bold;
+    font-size: 0.8em;
+    line-height: 1.4;
+    font-family: sans-serif;
+    word-wrap: break-word;
+
+}
+article{
+    width: 1260px;}
+
+#response {
+    background: #eee;
+    border-radius: 5px;
+    height: 610px;
+    width: 1080px;
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+#respuesta {
+    position: relative;
+    width: 450px;
+    height: 481px;
+    overflow: scroll;
+    border: 1px solid #222;
+    float: right;
+    top: -25px;
+    font-size: 10px;
+    font-family: 'Righteous', cursive;
+    color: #4b8ec3;
+    letter-spacing: 0;
+}
+
+#Nueva_Busqueda{
+    width: 140px;
+    left: 80%;
+    height: 56px;
+    background-image:url("../img/Nueva_Busqueda.jpg");
+    position:absolute;
+}
+
+#Nueva_Busqueda:hover{
+    cursor: pointer;
+}
+
+#Nueva_Busqueda:active{
+    background-image:url("../img/Nueva_Busqueda_click.jpg");
+}
+
+#table_res{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#table_res tr{
+    text-align: center;
+}
+
+#table_res tr:first-child{
+    background: #00aff0 !important;
+    color:white;
+}
+
+#table_res tr:nth-child(2n){
+    background: #c7edfc;
+}
+
+#table_res tr:nth-child(2n+1)
+{
+    background:#e5f7fd;
+}
+
